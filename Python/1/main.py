@@ -4,7 +4,7 @@ elves = [[]]
 totals = []
 maximum = -1
 total = 0
-with open ("./1/input.txt") as f:
+with open ("./Python/1/input.txt") as f:
     for line in f.readlines():
         if line == '\n':
             elves.append([])
